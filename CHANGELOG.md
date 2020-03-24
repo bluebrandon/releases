@@ -2,18 +2,11 @@
 
 ## v0.62.0
 
-This feature release of React Native includes many changes for the platform: it has been a lot of work, so please refer to the [blog post](ADD) for overlook of the main changes - like Flipper support and the new LogBox.
+This major release includes Flipper support by default, improved dark mode support, moving AppleTV to react-native-tvos, and more. See the [blog](https://reactnative.dev/blog/2020/03/24/version-0.62) for all of the highlights.
 
-As always, we’ve done our best to test this release at length, especially with this being such a large release. However, note that due to challenges caused by COVID-19 to people everywhere, we [the maintainers] may not have the bandwidth we’d like to have for quick follow-up on bugs and/or a patch release. When you run into an issue, please do try to provide a fix or a detailed ticket, but be prepared to revert to the version you were previously on to unblock yourself.
+We’re releasing this version to respect the work of hundreds of contributors who made this release possible and to prevent the release from falling too far behind master. Please be mindful of the reduced capacity of contributors to help with issues and prepare to delay upgrading if necessary.
 
-For upgrading users, some of the progress comes with breaking changes; manual intervention may be required for your app - so remember to rely on the [upgrade-helper](https://react-native-community.github.io/upgrade-helper/) for a detailed breakdown of the needed changed.
-
-We are, in particular, aware that you may hit some issues on the Android side - for both, at the issue linked here, there's a workaround in place already:
-
-- [Release version instacrash on Android](https://github.com/facebook/react-native/issues/28163)
-- [APK size increases after Gradle version bump](https://github.com/facebook/react-native/issues/28330)
-
-You can participate in the conversation around this release in [this issue](ADD) - where you can post links to your bug reports and cherry-pick suggestions for coming patch releases.
+If you're upgrading, manual intervention may be required for your app. Please see the [upgrade-helper](https://react-native-community.github.io/upgrade-helper/) for a detailed breakdown of the changes required and see [this issue](ADD) for help upgrading.
 
 ### Breaking
 
