@@ -43,7 +43,6 @@ If you're upgrading, manual intervention may be required for your app. Please se
 - Add `onSlidingComplete` callbacks when sliders adjusted via a11y. ([c7aa6dc827](https://github.com/facebook/react-native/commit/c7aa6dc8270c0eabc913fe6c617c8131e3f4b3c5))
 - Expose Hermes Sampling Profiler ([15ecb60d6d](https://github.com/facebook/react-native/commit/15ecb60d6deb96fcb7b0ef70faccd10594ededa3) by [@axe-fb](https://github.com/axe-fb))
 - Add `error-subclass-name` lint rule ([6611c4b8f4](https://github.com/facebook/react-native/commit/6611c4b8f42520add983cc48fe4e14f7a02cc7cf) by [@motiz88](https://github.com/motiz88))
-- Add `getSize` method to ImageLoader ([06d3031281](https://github.com/facebook/react-native/commit/06d3031281f87ae552abe57cc11868314ee1320e) by [@lunaleaps](https://github.com/lunaleaps))
 - Add `HostComponent` to the public API of React Native ([a446a38aaa](https://github.com/facebook/react-native/commit/a446a38aaab5bea2e279f1958cfd90090bfd7e09) by [@TheSavior](https://github.com/TheSavior))
 - Add `RCTExceptionsManager.reportException` ([9a57145f52](https://github.com/facebook/react-native/commit/9a57145f52a03678da02d5d00cbe11eed3f5a0fc) by [@motiz88](https://github.com/motiz88))
 - Add `accessibilityValue` property ([7df3eea1a7](https://github.com/facebook/react-native/commit/7df3eea1a79f12c2dfff1976d0cef605a83232ec) by [@marcmulcahy](https://github.com/marcmulcahy))
@@ -64,9 +63,6 @@ If you're upgrading, manual intervention may be required for your app. Please se
 #### iOS specific
 
 - Added web socket support for macOS ([f21fa4ecb7](https://github.com/facebook/react-native/commit/f21fa4ecb73551bdc4c3d70db9fc13e93b19b3a6) by [@andymatuschak](https://github.com/andymatuschak))
-- Add `queryCache` to ImageLoader ([ea1e8bbd34](https://github.com/facebook/react-native/commit/ea1e8bbd34b655a062ef13b6c2c76660ed43d31a) by [@lunaleaps](https://github.com/lunaleaps))
-- Add `prefetchImage` to ImageLoader ([40667a8147](https://github.com/facebook/react-native/commit/40667a814701cadae5493f599393ef94608c300f) by [@lunaleaps](https://github.com/lunaleaps))
-- Add `getSizeWithHeaders` to ImageLoader ([db20260b03](https://github.com/facebook/react-native/commit/db20260b03187b507eacb231fbda0648ed85c0e4) by [@lunaleaps](https://github.com/lunaleaps))
 - Added Warning message Linking API with Phones in iOS Simulator ([e1d89fbd9d](https://github.com/facebook/react-native/commit/e1d89fbd9df91679ec36e955a3d0f699c2d5e777) by [@espipj](https://github.com/espipj))
 - Added missing deps for React-CoreModules ([15b2353382](https://github.com/facebook/react-native/commit/15b2353382c46dc5f0130ff44b9deb6a2361e3e5) by [@fkgozali](https://github.com/fkgozali))
 - Expose the `isPackagerRunning` methods on RCTBundleURLProvider ([fe9cba74fa](https://github.com/facebook/react-native/commit/fe9cba74fa6241b4c38a3df9481d3634ebd51bf9) by [@afoxman](https://github.com/afoxman))
